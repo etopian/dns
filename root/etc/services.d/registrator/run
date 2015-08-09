@@ -1,0 +1,4 @@
+#!/usr/bin/execlineb -P
+
+
+registrator -internal -ttl 180 -ttl-refresh 60 -resync 60 skydns2://127.0.0.1:4001/devoply.local
